@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://www.dafontfree.net/freefonts-futura-std-f61836.htm');
+@import url('https://fonts.google.com/specimen/Roboto+Condensed');
+
+body{
+  background-image: url("../imagenes/nalu-desktop-.jpg");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	text-align: center;
+}
+
+header .logo a img{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+h2{
+	font-size: 40px;
+	font-family: 'Audiowide', cursive;
+	margin-bottom: 35px;
+	margin-top: 10px;
+	color: white;
+}
+
+.iniciar{
+	background-color: black;
+	opacity: 0.8;
+	box-shadow: 1px 1px 10px 4px black;
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	width: 450px;
+	margin: 0 auto;
+}
+
+.iniciar .email{
+  margin-bottom: 10px;
+}
+
+.iniciar .email input{
+	background-color: rgba(60,60,60,0.6);
+	border-radius: 10px;
+	border-style: none;
+	margin-bottom: 10px;
+	width: 60%;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.iniciar .password{
+	margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.iniciar .password input{
+	background-color: rgba(60,60,60,0.6);
+	border-radius: 10px;
+	border-style: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 60%;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.recordarme{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	color: white;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 1px;
+}
+
+.boton .entrar{
+  background-color: rgba(100,100,200,0.5);
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 15px 5px;
+  padding: 15px 52px;
+  color: #7EDCFC;
+  font-family: 'Futura Std';
+	font-size: 20px;
+  border-style: none;
+	text-align: center;
+  letter-spacing: 2px;
+}
+
+.olvido a{
+	display: inline-block;
+	padding-bottom: 15px;
+	color: white;
+	text-decoration: none;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 1px;
+}
+
+/*.marquee{
+	font-size: 25px;
+	color: rgba(70,70,70,0.8);
+	font-family: 'Audiowide', cursive;
+	padding-bottom: 10px;
+}*/
+
+footer {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 1px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+  padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+  body{
+    background-image: url("../imagenes/nalu-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header .logo{
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+
+  header .logo a img{
+    width: 80px;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .iniciar{
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .iniciar .email input{
+  	margin-bottom: 10px;
+  	width: 80%;
+  	padding: 10px;
+  	font-size: 13px;
+  }
+
+  .iniciar .password input{
+  	margin-top: 5px;
+  	margin-bottom: 10px;
+  	width: 80%;
+  	padding: 10px;
+  	font-size: 13px;
+  }
+
+  .recordarme{
+  	padding-top: 5px;
+  	padding-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .boton .entrar{
+    margin-top: 10px;
+    margin-bottom: 25px;
+  	font-size: 15px;
+  }
+
+  .olvido a{
+  	font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  footer{
+    padding-top: 20px;
+    font-size: 10px;
+  }
+}

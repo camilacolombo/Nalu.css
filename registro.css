@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://www.dafontfree.net/freefonts-futura-std-f61836.htm');
+@import url('https://fonts.google.com/specimen/Roboto+Condensed');
+
+body{
+  background-image: url("../imagenes/nalu-desktop-.jpg");
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	text-align: center;
+}
+
+header .logo a img{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.container{
+  background-color: black;
+  opacity: 0.8;
+  box-shadow: 1px 1px 10px 4px black;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 450px;
+  margin: 0 auto;
+}
+
+h2{
+	font-size: 40px;
+	font-family: 'Audiowide', cursive;
+	margin-bottom: 35px;
+	margin-top: 10px;
+	color: white;
+}
+
+input{
+  background-color: rgba(60,60,60,0.6);
+	border-radius: 10px;
+	border-style: none;
+	width: 60%;
+	padding: 15px;
+	font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.image{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main  a input{
+  background-color: rgba(100,100,200,0.5);
+  border-radius: 15px 5px;
+  padding: 15px;
+  color: #7EDCFC;
+  font-family: 'Futura Std';
+  letter-spacing: 2px;
+  font-size: 20px;
+  border-style: none;
+  width: 140px;
+  display: inline-block;
+  margin-right: 70px;
+  margin-top: 15px;
+}
+
+.main button {
+  padding: 10px 20px;
+  background-color: rgba(100,100,100,0.4);
+  border-style: none;
+  border-radius: 10px;
+  color: #7EDCFC;
+  font-family: 'Futura Std';
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+footer {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 1px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+  padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+  body{
+    background-image: url("../imagenes/nalu-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header .logo{
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+
+  header .logo a img{
+    width: 80px;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .container{
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  h2{
+  	font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  input{
+  	width: 80%;
+  	padding: 10px;
+  	font-size: 13px;
+    margin-bottom: 15px;
+  }
+
+  .main  a input{
+    padding: 10px;
+    font-size: 15px;
+    width: 100px;
+    margin-right: 65px;
+    display: inline-block;
+    margin-top: 15px;
+  }
+
+  .main button {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+
+  footer{
+    padding-top: 20px;
+    font-size: 10px;
+  }
+}

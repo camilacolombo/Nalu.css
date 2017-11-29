@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://www.dafontfree.net/freefonts-futura-std-f61836.htm');
+@import url('https://fonts.google.com/specimen/Roboto+Condensed');
+
+body{
+  background-image: url("../imagenes/nalu-desktop-.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  text-align: center;
+}
+
+header .logo a img{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+main{
+  margin: 0 auto;
+  width: 600px;
+}
+
+main .inicio{
+  background-color: black;
+  opacity: 0.8;
+  box-shadow: 1px 1px 10px 4px black;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  font-size: 70px;
+  font-family: 'Audiowide', cursive;
+  /*cambiar tipo*/
+}
+
+h3{
+  font-size: 19px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: 'Roboto Condensed';
+  letter-spacing: 3px;
+  color: slategrey;
+  font-weight: 400;
+}
+
+div .iniciar{
+  float: right;
+  background-color: black;
+  opacity: 0.8;
+  box-shadow: 1px 1px 10px 4px black;
+  border-radius: 20px;
+  padding: 30px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+div .crear{
+  float: left;
+  background-color: black;
+  opacity: 0.8;
+  box-shadow: 1px 1px 10px 4px black;
+  border-radius: 20px;
+  padding: 30px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+h2{
+  color: white;
+  font-family: 'Futura Std';
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+footer .copy{
+  clear: both;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 1px;
+	color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+  body{
+    background-image: url("../imagenes/nalu-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header .logo{
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+
+  header .logo a img{
+    width: 80px;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  main{
+    width: 250px;
+  }
+
+  main div.inicio{
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  h1{
+    font-size: 28px;
+    line-height: normal;
+    /*cambiar tipo*/
+  }
+
+  h3{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-family: 'Roboto Condensed';
+    letter-spacing: 1px;
+  }
+
+  div .crear {
+    padding: 15px 20px;
+    border-radius: 0 60px;
+    margin-top: 20px;
+  }
+
+  div .iniciar{
+    padding: 15px 20px;
+    border-radius: 60px 0;
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+
+  h2{
+    font-size: 13px;
+  }
+
+  footer .copy{
+    padding-top: 20px;
+    font-size: 10px;
+  }
+}
